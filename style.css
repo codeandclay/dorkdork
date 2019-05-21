@@ -202,3 +202,15 @@ nav ul {
   margin: 0 0 var(--half-vertical-spacing) 0;
   list-style: none;
 }
+
+.pagination {
+  overflow: auto;
+}
+
+.previous {
+  text-align: left;
+}
+
+.next {
+  float: right;
+}
