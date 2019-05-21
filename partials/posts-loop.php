@@ -4,9 +4,6 @@ if ( have_posts() ) {
 		the_post();
 		get_template_part( 'partials/article' );
 	}
-	if ( is_singular() ) {
-		get_template_part( 'partials/comments' );
-	}
 	?><div class="pagination">
 	<?php
 	next_posts_link( 'older' );
