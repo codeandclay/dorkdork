@@ -9,8 +9,8 @@ if ( have_posts() ) {
 	next_posts_link( 'older' );
 	previous_posts_link( 'newer' );
 	?>
-  </div>
+</div>
 	<?php
 } else {
-		esc_html_e( 'Sorry. There are no posts.', 'useful-plugins' );
+	esc_html_e( 'Sorry. There are no posts.', 'useful-plugins' );
 }
