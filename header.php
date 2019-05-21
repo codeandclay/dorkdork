@@ -7,9 +7,6 @@
 		<body>
 		<div class="container">
 		<header>
-			<h1><?php echo( esc_html( get_bloginfo( 'name' ) ) ); ?></h1>
+			<h1><a href="<?php echo( esc_html( get_home_url())) ?>"><?php echo( esc_html( get_bloginfo( 'name' ) ) ); ?></a></h1>
 		</header>
-		<form action="get" class="search">
-			<input id="search" type="search">
-			<button>search</button>
-		</form>
+		<?php get_search_form(); ?>
