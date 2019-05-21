@@ -11,7 +11,7 @@
 		else :
 			esc_html_e( 'Sorry. There are no posts.', 'useful-plugins' );
 		endif;
-		?>
+	?>
 </main>
 <?php
 	get_footer();
