@@ -55,10 +55,6 @@ input, textarea {
   line-height: inherit;
 }
 
-button:hover {
-  cursor: pointer;
-}
-
 #searchform {
   text-align: center;
   margin-bottom: var(--base-vertical-spacing);
@@ -81,6 +77,8 @@ input[type=submit] {
   padding-top: 1px;
   padding-bottom: 1px;
   line-height: inherit;
+
+  cursor: pointer;
 
   text-transform: uppercase;
   background-color: var(--grey);
