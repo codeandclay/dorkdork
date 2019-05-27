@@ -190,7 +190,7 @@ article {
   font-weight: normal;
 }
 
-footer h2 {
+h2 {
   font-size: var(--base-font-size);
   line-height: var(--base-line-height);
 }
