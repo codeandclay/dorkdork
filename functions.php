@@ -10,18 +10,3 @@ if ( ! function_exists( 'dork_dork_setup' ) ) {
 }
 
 add_action( 'after_setup_theme', 'dork_dork_setup' );
-
-add_filter( 'next_posts_link_attributes', 'next_link_attributes' );
-add_filter( 'previous_posts_link_attributes', 'previous_link_attributes' );
-
-
-add_filter( 'next_post_link_attributes', 'next_link_attributes' );
-add_filter( 'previous_post_link_attributes', 'previous_link_attributes' );
-
-function previous_link_attributes() {
-	return 'class="previous"';
-}
-
-function next_link_attributes() {
-	return 'class="next"';
-}
