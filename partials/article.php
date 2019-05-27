@@ -6,9 +6,6 @@
       <?php
         the_content();
       ?>
-      <a href="<?php echo( esc_html( get_permalink() ) ); ?>">
-        comments(<?php echo( esc_html( get_comments_number() ) ); ?>)
-      </a>
     <div class="categories">
       <ul>
       <?php
